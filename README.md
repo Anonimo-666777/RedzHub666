@@ -10,7 +10,7 @@ Menkato e David
 ## 📦 Carregando a Library
 
 ```lua
-local redzlib = loadstring(game:HttpGet("SEU_LINK_AQUI"))()
+local redzlib = loadstring(game:HttpGet("https://pastefy.app/2HvS5nD4/raw"))()
 ```
 
 ---
