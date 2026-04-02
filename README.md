@@ -119,12 +119,11 @@ Para:Destroy()
 Botão clicável.
 
 ```lua
-local Btn = Tab:AddButton({
-    "Clique Aqui",           -- [1] Nome
-    function()               -- [2] Callback
-        print("clicou!")
-    end,
-    Desc = "Descrição opcional"
+Tab:AddButton({
+    "Teleportar",  -- [1] Nome
+    function()     -- [2] Callback
+        -- teleporte
+    end
 })
 ```
 
@@ -230,17 +229,16 @@ Drop:Destroy()
 Slider numérico com precisão decimal.
 
 ```lua
-local Slider = Tab:AddSlider({
-    "Velocidade",        -- [1] Nome
-    {0, 100},            -- [2] {Min, Max}
-    50,                  -- [3] Default
-    function(val)        -- [4] Callback
-        print("Valor:", val)
+Tab:AddSlider({
+    "WalkSpeed",   -- [1] Nome
+    16,            -- [2] Min
+    500,           -- [3] Max
+    1,             -- [4] Increase (passo)
+    16,            -- [5] Default
+    function(val)  -- [6] Callback
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = val
     end,
-    Flag = "SpeedSlider",
-    Suffix = "x",
-    Increase = 1,        -- Precisão (ex: 0.1 para decimais)
-    Desc = "Ajuste a velocidade"
+    -- Flag = "SliderFlag"  -- [7] opcional
 })
 ```
 
