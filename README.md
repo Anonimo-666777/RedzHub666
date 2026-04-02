@@ -1,6 +1,6 @@
 # redzlib V5 — Documentation
 
-> UI Library feita por **redz9999** para Roblox executors.  
+> UI Library feita por **redz9999**.  
 > Versão: `1.1.0`
 
 ---
