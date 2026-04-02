@@ -421,7 +421,7 @@ end)
 ## 📋 Exemplo completo
 
 ```lua
-local redzlib = loadstring(game:HttpGet("SEU_LINK"))()
+local redzlib = loadstring(game:HttpGet("https://pastefy.app/2HvS5nD4/raw"))()
 
 local Window = redzlib:MakeWindow({
     "Meu Hub",
