@@ -49,7 +49,7 @@ Window:AddMinimizeButton({ ... })        -- Adiciona botão flutuante de minimiz
 Adiciona uma aba na sidebar.
 
 ```lua
-local Tab = Window:AddTab({
+local Tab = Window:MakeTab({
     "Nome da Aba",       -- [1] Nome
     "star"               -- [2] Ícone (nome Lucide ou rbxassetid://)
 })
