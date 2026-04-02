@@ -1,9 +1,9 @@
-# redzlib V5 — Documentation
+# redzlib V6 — Documentation
 
 > UI Library feita por 
 Menkato e David
 **redz9999**.  
-> Versão: `1.1.0`
+> Versão: `6`
 
 ---
 
